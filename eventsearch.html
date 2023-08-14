@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="event.css">
+  <link rel="icon" href="assets/logo.png"  type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Events</title>
+ 
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <h1>Explora</h1>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="eventsearch.html">Events</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>        
+        <section class="organizer-section">
+            <div class="organizer-content">
+              <br>
+              
+              <h2>Are you an organizer?</h2>
+              <form action="register.php" >
+                <input type="submit" id="add-event-button" value="Register/Login">
+              </form>
+              
+            </div>
+          </section>
+      
+          <section class="search-section">
+            <h2> Search for events below</h2>
+            <br>
+            <div class="search-bar">
+              <input type="text" placeholder="Enter your location" list="city-list">
+              <datalist id="city-list">
+                <option value="Mumbai">
+                    <option value="Delhi">
+                    <option value="Bengaluru">
+                    <option value="Kolkata">
+                    <option value="Chennai">
+                  </datalist>
+                  <button type="submit" class="button"><i class="fa fa-search"></i></button>
+                </div>
+              
+  
+      <script src="event.js"></script>
+
+</body>
+</html>

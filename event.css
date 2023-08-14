@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 27px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo h1 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+
+.organizer-section {
+    background-image:url('assets/bgevents1.png');
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .organizer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .organizer-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:white;
+  }
+  
+  #add-event-button {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #add-event-button:hover{
+    background-color: #ff4723;
+  }
+  
+  .search-section {
+    
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  .button {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+ 
